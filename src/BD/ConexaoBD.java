@@ -13,8 +13,8 @@ public class ConexaoBD {
         
         try{
             String url = "jdbc:postgresql://localhost:5432/KS Sistema de vendas";  
-            String usuario = "postgres";  
-            String senha = "255263";              
+            String usuario = "user";  
+            String senha = "senha";              
             //Class.forName("org.postgresql.Driver");                   
             con = DriverManager.getConnection(url, usuario, senha);                
             return con;
